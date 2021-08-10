@@ -1,0 +1,46 @@
+span{
+    font-weight: 800;
+}
+
+.fb-card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    border: solid 1px black;
+    margin: 15px;
+    height: 100px;
+}
+
+.infos{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.infos.displayed{
+   display: flex;
+}
+
+
+.fb-image{
+    width: 100px;
+    margin-right: 15px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.profile-list{
+    display: flex;
+    flex-wrap: wrap;
+}
